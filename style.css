@@ -1,0 +1,51 @@
+/* Color  Tint Base Shadow
+primary Color: 
+secondary Color: 
+tertiary Color: 
+gray Color: #dee2e6  #ced4da   #868e96  #212529
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+
+.dp {
+   width: 40px;
+    height: 40px;
+}
+nav h4{
+    font-size: 20px;
+    color: #212529;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#212529;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
